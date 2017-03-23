@@ -10,4 +10,10 @@ public class Implication extends BinaryConnective{
                 return imply;
         }
 
+        @Override
+        public boolean evaluate(boolean p, boolean q) {
+                // TODO Auto-generated method stub
+                return false;
+        }
+
 }

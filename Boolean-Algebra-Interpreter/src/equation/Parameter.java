@@ -1,6 +1,8 @@
 package equation;
 
-public class Parameter {
+import logicalElement.LogicalElement;
+
+public class Parameter implements LogicalElement{
         private boolean truth;
         private boolean falseness;
 

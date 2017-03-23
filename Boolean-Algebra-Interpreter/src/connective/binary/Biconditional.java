@@ -10,4 +10,10 @@ public class Biconditional extends BinaryConnective{
                 return equivalent;
         }
 
+        @Override
+        public boolean evaluate(boolean p, boolean q) {
+                // TODO Auto-generated method stub
+                return false;
+        }
+
 }

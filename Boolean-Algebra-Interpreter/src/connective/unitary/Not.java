@@ -12,4 +12,10 @@ public class Not extends UnitaryConnective{
                 return not;
         }
 
+        @Override
+        public boolean evaluate(boolean p) {
+                // TODO Auto-generated method stub
+                return false;
+        }
+
 }

@@ -1,5 +1,7 @@
 package connective;
 
-public abstract class Connective {
+import logicalElement.LogicalElement;
+
+public abstract class Connective implements LogicalElement{
 
 }

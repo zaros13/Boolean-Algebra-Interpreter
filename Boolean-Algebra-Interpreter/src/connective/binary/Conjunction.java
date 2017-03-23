@@ -10,4 +10,10 @@ public class Conjunction extends BinaryConnective{
                 return and;
         }
 
+        @Override
+        public boolean evaluate(boolean p, boolean q) {
+                // TODO Auto-generated method stub
+                return false;
+        }
+
 }
